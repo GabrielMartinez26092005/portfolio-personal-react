@@ -2,12 +2,23 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
 import Footer from './Components/Header/header'
 
+const colors = {
+  brand: {
+    900: '#F2D7EE',
+    800: '#153e75',
+    700: '#2a69ac',
+  },
+}
+const theme = extendTheme({ colors })
+
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ChakraProvider>
+  <ChakraProvider theme={theme}>
+    <React.StrictMode>
       <Footer/>
-    </ChakraProvider>
-  </React.StrictMode>,
+    </React.StrictMode>
+  </ChakraProvider>,
+
 )

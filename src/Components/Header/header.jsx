@@ -1,10 +1,14 @@
 import React from "react";
-import { Box, Button, Flex, Spacer, Link, Stack,} from "@chakra-ui/react"
-import { px } from "framer-motion";
+import { Box, Button, Flex, Spacer, Link, Stack, } from "@chakra-ui/react"
+
 let Footer = () => {
 
+
     return (
-    <Flex align="center" justify="space-between" pt={5}>
+    <Flex 
+    align="center" 
+    justify="space-between" 
+    pt={5}>
         <Box pl={55} fontStyle={'italic'}>
             Gabriel.
         </Box>
