@@ -12,7 +12,29 @@ const colors = {
     700: '#2a69ac',
   },
 }
-const theme = extendTheme({ colors })
+
+const Button = {
+  variants: {
+    'black_button': {
+      borderRadius:'30',
+      bg:'black', 
+      color:'white',
+      fontSize:'14',
+      border: '1px solid',
+      p:'6',
+      _hover: {
+        bg: 'white',
+        color: 'black',
+        border: '1px solid',
+        borderColor: 'black',
+        transition:'.8s'
+      }
+    }  
+  }
+}
+
+
+const theme = extendTheme({ colors , components: { Button } })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider theme={theme}>
