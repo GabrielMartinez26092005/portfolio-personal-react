@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Heading, Center, Flex, Stack, } from "@chakra-ui/react"
-import CardServices from "../CardServices/card";
+import { Box, Heading, Center, Stack, } from "@chakra-ui/react"
+import CardProject from "../CardProject/card";
 
 let Projects = () => {
 
@@ -12,8 +12,8 @@ let Projects = () => {
                 </Heading>
             </Center>
             <Stack direction={'row'} spacing={'30px'} pt={'10px'} pl={'55px'} pr={'55px'}>
-            <CardServices url={'public/login-page-project.png'}></CardServices>
-            <CardServices url={'public/services-project.png'}></CardServices>
+            <CardProject url={'public/login-page-project.png'}></CardProject>
+            <CardProject url={'public/services-project.png'}></CardProject>
             </Stack>
                 
         </Box>

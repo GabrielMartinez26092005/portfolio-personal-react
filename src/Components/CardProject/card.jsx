@@ -3,7 +3,7 @@
 import React from "react";
 import { Box, Heading,  Text, Button, Flex,  Image,} from "@chakra-ui/react"
 
-let CardServices = ({ url }) => {
+let CardProject = ({ url }) => {
 
 
     return (
@@ -23,4 +23,4 @@ let CardServices = ({ url }) => {
     )
 }
 
-export default CardServices
+export default CardProject
