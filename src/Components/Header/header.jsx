@@ -1,14 +1,14 @@
 import React from "react";
-import { Box, Button, Flex, Link, Stack, } from "@chakra-ui/react"
+import { Box, Button, Flex, Link, Stack, Heading, } from "@chakra-ui/react"
 
 let Footer = () => {
 
 
     return (
     <Flex align="center" justify="space-between" pt={5}>
-        <Box pl={55} fontStyle={'italic'} fontWeight={'bold'}>
+        <Heading pl={55} fontStyle={'italic'} fontWeight={'bold'} size={'1xl'}>
             Gabriel.
-        </Box>
+        </Heading>
         <Stack direction={"row"} spacing='20px' fontWeight={'500'}>
             <Link>Inicio</Link>
             <Link>Trabajos</Link>

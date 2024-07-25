@@ -4,6 +4,7 @@ import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 import Footer from './Components/Header/header'
+import Main from './Components/Main/main'
 
 const colors = {
   brand: {
@@ -29,7 +30,19 @@ const Button = {
         borderColor: 'black',
         transition:'.8s'
       }
-    }  
+    },
+    'white_button': {
+      borderRadius:'30',
+      bg:'white', 
+      color:'black',
+      fontSize:'14',
+      p:'6',
+      _hover: {
+        bg: 'black',
+        color: 'white',
+        transition:'.8s'
+      }  
+    }
   }
 }
 
@@ -40,6 +53,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider theme={theme}>
     <React.StrictMode>
       <Footer/>
+      <Main/>
     </React.StrictMode>
   </ChakraProvider>,
 
