@@ -42,7 +42,7 @@ const Button = {
         color: 'white',
         transition:'.8s'
       }  
-    }
+    },
   }
 }
 

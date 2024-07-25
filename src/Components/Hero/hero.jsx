@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Flex, Text, Stack, Heading, } from "@chakra-ui/react"
+import { Box, Button, Flex, Text, Stack, Heading} from "@chakra-ui/react"
 
 let Hero = () => {
 
