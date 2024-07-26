@@ -5,7 +5,7 @@ import CardProject from "../CardProject/card";
 let Projects = () => {
 
     return (
-        <Box pt={'30px'}>
+        <Box mb={'100px'}>
             <Center>
                 <Heading size={'2xl'}>
                     PROYECTOS RECIENTES

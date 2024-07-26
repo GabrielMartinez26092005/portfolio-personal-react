@@ -5,7 +5,7 @@ let Footer = () => {
 
 
     return (
-    <Flex align="center" justify="space-between" pt={5}>
+    <Flex align="center" justify="space-between" pt={'15px'} pb={'15px'}>
         <Heading pl={55} fontStyle={'italic'} fontWeight={'bold'} size={'1xl'}>
             Gabriel.
         </Heading>
