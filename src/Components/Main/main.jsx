@@ -4,6 +4,7 @@ import Projects from "../Projects/projects";
 import { Box } from  "@chakra-ui/react";
 import Services from "../Services/services";
 import Statistics from "../Statistics/statistics";
+import Skills from "../Skills/skills";
 
 let Main = () => {
 
@@ -14,6 +15,7 @@ let Main = () => {
             <Projects/>
             <Services/>
             <Statistics/>
+            <Skills/>
         </Box>
         
     )

@@ -8,7 +8,7 @@ let Statistics = () => {
     return (
         <Box mb={'100px'} pl={'55px'} pr={'55px'}>
             <Center>
-                <Heading size={'2xl'}>
+                <Heading size={'3xl'}>
                     CAMBIANDO MI VISION
                 </Heading>
             </Center>

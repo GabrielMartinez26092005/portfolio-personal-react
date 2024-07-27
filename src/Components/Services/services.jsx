@@ -8,7 +8,7 @@ let Service = () => {
     return (
         <Box mb={'100px'}>
             <Center>
-                <Heading size={'2xl'}>
+                <Heading size={'3xl'}>
                     SERVICIOS
                 </Heading>
             </Center>
