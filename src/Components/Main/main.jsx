@@ -6,6 +6,7 @@ import Services from "../Services/services";
 import Statistics from "../Statistics/statistics";
 import Skills from "../Skills/skills";
 import Workstation from "../Workstation/workstation";
+import Footer from "../Footer/footer";
 
 let Main = () => {
 
@@ -18,6 +19,7 @@ let Main = () => {
             <Statistics/>
             <Skills/>
             <Workstation/>
+            <Footer/>
         </Box>
         
     )
