@@ -18,7 +18,7 @@ let Skills = () => {
                 habilidades={['Html', 'Css', 'JavaScript' ]}/>
 
             </Box>
-            <Box pt={'40px'}>
+            <Box pt={'35px'}>
                 <CardSkill 
                 url={'/public/skills-2.jpg'}
                 fecha='24-2024'

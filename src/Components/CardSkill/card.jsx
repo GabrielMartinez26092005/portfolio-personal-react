@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, Flex, Heading, Image, UnorderedList, ListItem, Stack } from "@chakra-ui/react";
+import { Box, Text, Heading, Image, UnorderedList, ListItem, Stack } from "@chakra-ui/react";
 
 let CardSkill = ({ url, fecha = 'Fecha', titulo = 'Titulo', habilidades = [] }) => {
   return (
