@@ -12,10 +12,9 @@ let Projects = () => {
                 </Heading>
             </Center>
             <Stack direction={'row'} spacing={'30px'} pt={'10px'} pl={'55px'} pr={'55px'}>
-            <CardProject url={'public/login-page-project.png'}></CardProject>
-            <CardProject url={'public/services-project.png'}></CardProject>
+                <CardProject url={'public/login-page-project.png'}></CardProject>
+                <CardProject url={'public/services-project.png'}></CardProject>
             </Stack>
-                
         </Box>
             
         
