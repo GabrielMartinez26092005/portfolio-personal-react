@@ -7,31 +7,64 @@ let Hero = () => {
     return (
         <Box bgGradient='linear(to-r, gray.300, yellow.400, pink.200)' pl={'55px'} pr={'55px'} pb={'75px'} mb={'100px'}>
             <Flex justify={'space-between'} align={'center'} pt={'350px'}> 
-                <Box >
-                    <Button variant={'white_button'}>
+                <Box w={'50%'}>
+                    <Button
+                    fontSize={{base: '10px', md: '15px', '2xl': '18px'}} 
+                    variant={'white_button'}
+                    fontFamily={'Owslad'} 
+                    fontWeight={'semibold'}
+                    size={{base: 'xs', md: 'md', '2xl': 'lg'}}>
                         Disponible para nuevas oportunidades
                     </Button>
                 </Box>
-                <Text w={'350px'}>
-                    Especializado en Desarrollo Web y Desarrollo de Apliciones de Escritorio
+                <Text 
+                fontSize={{base: '10px', md: '15px', '2xl': '18px'}} 
+                pl={{base: '30px', md: '100px', lg: '200px', xl: '300px', '2xl': '420'}}
+                w={'50%'}
+                fontFamily={'Owslad'} 
+                fontWeight={'semibold'}>
+                    Especializado en Desarrollo Web y Desarrollo de Apliciones de Escritorio.
                 </Text>
             </Flex>  
 
-            <Flex justify={'space-between'} align={'end'} pt={'100px'}>
-                <Stack >
-                    <Heading size={'4xl'}>
+            <Flex 
+            justify={'space-between'} 
+            align={'end'} 
+            pt={'100px'}>
+                <Stack w={'50%'}>
+                    <Heading 
+                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px', '2xl': '170px'}} 
+                    fontFamily='Oswald' 
+                    color={'black'}>
                         YO SOY
                     </Heading>
-                    <Heading size={'4xl'}>
+                    <Heading 
+                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px', '2xl': '170px'}} 
+                    fontFamily={'Oswald'} 
+                    color={'black'}>
                         GARIEL
                     </Heading>
                 </Stack>
                 
-                <Stack >
-                    <Heading size={'2xl'}>
-                        DESARROLLADOR WEB 
+                <Stack 
+                pl={{ base: '30px', md: '100px', lg: '200px', xl: '300px', '2xl': '420'}} 
+                w={'50%'}>
+                    <Heading 
+                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontFamily={'Oswald'} 
+                    color={'black'}>
+                        DESARROLLADOR 
                     </Heading>
-                    <Heading size={'2xl'}>
+                    <Heading 
+                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontFamily={'Oswald'} 
+                    color={'black'}>
+                        WEB 
+                    </Heading>
+                    <Heading 
+                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontFamily={'Oswald'} 
+                    color={'black'}>
                         FULL STACK
                     </Heading>
                 </Stack>

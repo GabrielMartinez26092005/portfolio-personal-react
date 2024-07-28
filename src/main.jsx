@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
-import Footer from './Components/Header/header'
 import Main from './Components/Main/main'
 
 const colors = {
@@ -36,7 +35,7 @@ const Button = {
       bg:'white', 
       color:'black',
       fontSize:'14',
-      p:'6',
+      p:'6px',
       _hover: {
         bg: 'black',
         color: 'white',
@@ -52,7 +51,6 @@ const theme = extendTheme({ colors , components: { Button } })
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ChakraProvider theme={theme}>
     <React.StrictMode>
-      <Footer/>
       <Main/>
     </React.StrictMode>
   </ChakraProvider>,

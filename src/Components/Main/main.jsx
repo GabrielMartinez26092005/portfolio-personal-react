@@ -1,11 +1,13 @@
 import React from "react";
 import { Box } from  "@chakra-ui/react";
+import Header from "../Header/header";
 import Hero from "../Hero/hero";
 import Projects from "../Projects/projects";
 import Services from "../Services/services";
 import Statistics from "../Statistics/statistics";
 import Skills from "../Skills/skills";
 import Workstation from "../Workstation/workstation";
+import Formulario from "../Form/form";
 import Footer from "../Footer/footer";
 
 let Main = () => {
@@ -13,10 +15,11 @@ let Main = () => {
 
     return (
         <Box>
+            <Header/>
             <Hero/>
             <Projects/>
-            <Services/>
-            <Statistics/>
+            {/* <Services/> */}
+            <Statistics/>   
             <Skills/>
             <Workstation/>
             <Footer/>

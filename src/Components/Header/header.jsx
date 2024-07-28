@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Button, Flex, Link, Stack, Heading, } from "@chakra-ui/react"
 
-let Footer = () => {
+let Header = () => {
 
 
     return (
@@ -25,4 +25,4 @@ let Footer = () => {
     )
 }
 
-export default Footer
+export default Header
