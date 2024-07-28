@@ -21,7 +21,7 @@ const Button = {
       color:'white',
       fontSize:'14',
       border: '1px solid',
-      p:'6',
+      p:'6px',
       _hover: {
         bg: 'white',
         color: 'black',

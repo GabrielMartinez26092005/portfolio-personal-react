@@ -9,17 +9,17 @@ let Hero = () => {
             <Flex justify={'space-between'} align={'center'} pt={'350px'}> 
                 <Box w={'50%'}>
                     <Button
-                    fontSize={{base: '10px', md: '15px', '2xl': '18px'}} 
                     variant={'white_button'}
                     fontFamily={'Owslad'} 
                     fontWeight={'semibold'}
+                    fontSize={{base: '10px', md: '15px', xl: '20px'}} 
                     size={{base: 'xs', md: 'md', '2xl': 'lg'}}>
                         Disponible para nuevas oportunidades
                     </Button>
                 </Box>
                 <Text 
-                fontSize={{base: '10px', md: '15px', '2xl': '18px'}} 
-                pl={{base: '30px', md: '100px', lg: '200px', xl: '300px', '2xl': '420'}}
+                fontSize={{base: '10px', md: '15px', xl: '20px'}} 
+                pl={{ base: '30px', sm:'90px', md: '140px', lg: '200px', xl: '300px', '2xl': '420'}} 
                 w={'50%'}
                 fontFamily={'Owslad'} 
                 fontWeight={'semibold'}>
@@ -47,7 +47,7 @@ let Hero = () => {
                 </Stack>
                 
                 <Stack 
-                pl={{ base: '30px', md: '100px', lg: '200px', xl: '300px', '2xl': '420'}} 
+                pl={{ base: '30px', sm:'90px', md: '140px', lg: '200px', xl: '300px', '2xl': '420'}} 
                 w={'50%'}>
                     <Heading 
                     fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
