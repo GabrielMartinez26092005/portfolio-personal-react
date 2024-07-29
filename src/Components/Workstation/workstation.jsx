@@ -5,13 +5,22 @@ let Workstation = () => {
 
 
     return (
-        <Box mb={'100px'} pl={'55px'} pr={'55px'}>
+        <Box 
+        mb={{base: '20px', md: '50px', '2xl': '100px'}} 
+        px={['10px', '20px', '40px', '55px']}>
             <Center>
-                <Heading size={'3xl'}>
+                <Heading 
+                fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
+                fontFamily={'Oswald'}
+                color={'black'}
+                pb={['5px', '20px', '30px', '40px']}>
                     ESTACIÓN DE TRABAJO
                 </Heading>
             </Center>
-            <Grid pt={'40px'} templateRows='repeat(2, 1fr)' templateColumns='repeat(4, 1fr)' gap={4}>
+            <Grid 
+            templateRows='repeat(2, 1fr)' 
+            templateColumns='repeat(4, 1fr)' 
+            gap={4}>
                 <GridItem rowStart={1} rowEnd={2} colStart={1}>
                     <Image src='workstation1.jpg' objectFit={'cover'} h={'100%'} w={'100%'} borderRadius={'5%'}></Image>
                 </GridItem>

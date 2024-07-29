@@ -7,8 +7,7 @@ let Hero = () => {
     return (
         <Box 
         bgGradient='linear(to-r, gray.300, yellow.400, pink.200)' 
-        pl={'55px'} 
-        pr={'55px'} 
+        px={['10px', '20px', '40px', '55px']}
         pb={'75px'} 
         mb={{base: '20px', md: '50px', '2xl': '100px'}}>
             <Flex justify={'space-between'} align={'center'} pt={'350px'}> 

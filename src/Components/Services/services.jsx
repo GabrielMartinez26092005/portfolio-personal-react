@@ -7,18 +7,18 @@ let Service = () => {
 
     return (
         <Box 
-        mb={'100px'}
-        pl={'55px'}
-        pr={'55px'}>
+        mb={{base: '20px', md: '50px', '2xl': '100px'}}
+        px={['10px', '20px', '40px', '55px']}>
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
                 fontFamily={'Oswald'}
-                color={'black'}>
+                color={'black'}
+                pb={['10px', '20px', '30px', '40px']}>
                     PUEDO AYUDARTE CON
                 </Heading>
             </Center>
-            <Stack direction={'row'} justify={'space-between'} pt={'50px'} >
+            <Stack direction={'row'} justify={'space-between'}>
                 <CardService
                 titulo={'Marca'}
                 descripcion={'Creamos una marca fuerte para productos y empresas. Del modelo de marca al sistema de diseño.'}/>

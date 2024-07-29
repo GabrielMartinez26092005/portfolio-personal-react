@@ -14,14 +14,23 @@ let CardSkill = ({ url, fecha = 'Fecha', titulo = 'Titulo', habilidades = [] }) 
           </Text>
         </Box>
         <Box flex={'1 1 30%'} >
-          <Heading size={'1xl'}>
+          <Heading 
+          fontSize={{base: '15px', md: '20px', lg: '25px', '2xl': '30px'}}
+          fontFamily={'Roboto'}
+          pb={{md: '5px', '2xl': '10px'}}>
             {titulo}
           </Heading>
         </Box>
         <Box flex={'1 1 25%'} >
           <UnorderedList>
             {habilidades.map((habilidad, index) => (
-              <ListItem key={index}>{habilidad}</ListItem>
+              <ListItem 
+              fontSize={{base: '10px', xl: '15px', '2xl': '18px'}} 
+              fontWeight={'semibold'} 
+              pt={{lg: '5px', '2xl': '10px'}}
+              key={index}>
+                {habilidad}
+              </ListItem>
             ))}
           </UnorderedList>
         </Box>

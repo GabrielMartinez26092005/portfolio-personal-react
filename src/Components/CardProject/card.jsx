@@ -32,8 +32,8 @@ let CardProject = ({ titulo = 'titulo', descripcion = 'descripcion', urlImage, u
                     variant={'white_button'} 
                     border={'1px solid'} 
                     borderColor={'black'}
-                    fontSize={{base: '10px', xl: '15px', '2xl': '18px'}}
-                    p={{base: '5px', md: '10px', '2xl': '22px'}}>
+                    fontSize={{base: '8px', xs: '10px', md: '12px', xl: '15px', '2xl': '18px'}}
+                    size={['xs', 'sm', 'md', 'lg']}>
                         Click aqui <Icon as={FiArrowUpRight} color={'black'} ml={'5px'} fontSize={'17px'}/>
                     </Button>
                 </Link>

@@ -6,20 +6,22 @@ let Statistics = () => {
 
 
     return (
-        <Box mb={'100px'} pl={'55px'} pr={'55px'}>
+        <Box 
+        mb={{base: '20px', md: '50px', '2xl': '100px'}}
+        px={['10px', '20px', '40px', '55px']}>
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
                 fontFamily={'Oswald'}
-                color={'black'}>
+                color={'black'}
+                pb={['10px', '20px', '30px', '40px']}>
                     CAMBIANDO MI VISION
                 </Heading>
             </Center>
 
             <Stack 
             direction={'row'} 
-            spacing={'30px'} 
-            pt={'40px'}>
+            spacing={'30px'}>
                 <Box 
                 width={'50%'} 
                 pr={{base: '0px', md: '50px', xl: '100px', '2xl': '150px'}} 

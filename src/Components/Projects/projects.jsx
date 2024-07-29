@@ -7,18 +7,17 @@ let Projects = () => {
     return (
         <Box 
         mb={{base: '20px', md: '50px', '2xl': '100px'}}
-        pr={'55px'}
-        pl={'55px'}>
+        px={['10px', '20px', '40px', '55px']}>
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
                 fontFamily={'Oswald'}
                 color={'black'}
-                pb={{base: '5px', md: '15px', '2xl': '25px'}}>
+                pb={['10px', '20px', '30px', '40px']}>
                     PROYECTOS RECIENTES
                 </Heading>
             </Center>
-            <Stack direction={'row'} justify={'center'} spacing={'30px'} pt={'10px'}>
+            <Stack direction={'row'} justify={'center'} spacing={'30px'}>
                 <CardProject 
                 titulo={'Login Page'}
                 descripcion={'Diseño de Pagina Web'}
