@@ -7,7 +7,7 @@ import Services from "../Services/services";
 import Statistics from "../Statistics/statistics";
 import Skills from "../Skills/skills";
 import Workstation from "../Workstation/workstation";
-import Formulario from "../Form/form";
+import FormLogin from "../Form/form";
 import Footer from "../Footer/footer";
 
 let Main = () => {
@@ -22,6 +22,7 @@ let Main = () => {
             <Statistics/>   
             <Skills/>
             <Workstation/>
+            <FormLogin/>
             <Footer/>
         </Box>
         

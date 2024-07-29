@@ -1,5 +1,7 @@
 import React from "react";
-import { Box, Button, Flex, Text, Stack, Heading} from "@chakra-ui/react"
+import { Box, Button, Flex, Text, Stack, Heading, Icon, } from "@chakra-ui/react"
+import { PiRadioButtonFill } from "react-icons/pi";
+import { color } from "framer-motion";
 
 let Hero = () => {
 
@@ -14,10 +16,15 @@ let Hero = () => {
                 <Box w={'50%'}>
                     <Button
                     variant={'white_button'}
-                    fontFamily={'Owslad'} 
-                    fontWeight={'semibold'}
+                    fontFamily={'Roboto'} 
+                    fontWeight={500}
                     fontSize={{base: '10px', md: '15px', xl: '20px'}} 
                     size={{base: 'xs', md: 'md', '2xl': 'lg'}}>
+                        <Icon 
+                        as={PiRadioButtonFill}  
+                        color={'orange'} 
+                        mr={'5px'} 
+                        fontSize={['10px', '15px', '20px']}/>
                         Disponible para nuevas oportunidades
                     </Button>
                 </Box>
@@ -25,8 +32,8 @@ let Hero = () => {
                 fontSize={{base: '10px', md: '15px', xl: '20px'}} 
                 pl={{ base: '30px', sm:'90px', md: '140px', lg: '200px', xl: '300px', '2xl': '420'}} 
                 w={'50%'}
-                fontFamily={'Owslad'} 
-                fontWeight={'semibold'}>
+                fontFamily={'Roboto'} 
+                    fontWeight={500}>
                     Especializado en Desarrollo Web y Desarrollo de Apliciones de Escritorio.
                 </Text>
             </Flex>  

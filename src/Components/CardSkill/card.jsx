@@ -9,7 +9,9 @@ let CardSkill = ({ url, fecha = 'Fecha', titulo = 'Titulo', habilidades = [] }) 
           <Image src={url} objectFit={'cover'} borderRadius={'5%'}/>
         </Box>
         <Box flex={'1 1 25%'} >
-          <Text>
+          <Text
+          fontSize={{base: '10px', xl: '15px', '2xl': '18px'}} 
+          fontWeight={'semibold'} >
             {fecha}
           </Text>
         </Box>

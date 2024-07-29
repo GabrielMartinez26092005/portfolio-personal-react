@@ -34,7 +34,7 @@ let CardProject = ({ titulo = 'titulo', descripcion = 'descripcion', urlImage, u
                     borderColor={'black'}
                     fontSize={{base: '8px', xs: '10px', md: '12px', xl: '15px', '2xl': '18px'}}
                     size={['xs', 'sm', 'md', 'lg']}>
-                        Click aqui <Icon as={FiArrowUpRight} color={'black'} ml={'5px'} fontSize={'17px'}/>
+                        Ver Proyecto <Icon as={FiArrowUpRight} color={'black'} ml={'5px'} fontSize={'17px'}/>
                     </Button>
                 </Link>
             </Flex>
