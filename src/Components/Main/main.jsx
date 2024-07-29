@@ -15,7 +15,7 @@ let Main = () => {
 
     return (
         <Box>
-            <Header/>
+            {/* <Header/> */}
             <Hero/>
             <Projects/>
             {/* <Services/> */}

@@ -5,7 +5,12 @@ let Hero = () => {
 
 
     return (
-        <Box bgGradient='linear(to-r, gray.300, yellow.400, pink.200)' pl={'55px'} pr={'55px'} pb={'75px'} mb={'100px'}>
+        <Box 
+        bgGradient='linear(to-r, gray.300, yellow.400, pink.200)' 
+        pl={'55px'} 
+        pr={'55px'} 
+        pb={'75px'} 
+        mb={{base: '20px', md: '50px', '2xl': '100px'}}>
             <Flex justify={'space-between'} align={'center'} pt={'350px'}> 
                 <Box w={'50%'}>
                     <Button
@@ -33,13 +38,13 @@ let Hero = () => {
             pt={'100px'}>
                 <Stack w={'50%'}>
                     <Heading 
-                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px', '2xl': '170px'}} 
+                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px'}} 
                     fontFamily='Oswald' 
                     color={'black'}>
                         YO SOY
                     </Heading>
                     <Heading 
-                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px', '2xl': '170px'}} 
+                    fontSize={{base: '40px', sm: '70px', md: '100px', lg: '120px', xl: '150px'  }} 
                     fontFamily={'Oswald'} 
                     color={'black'}>
                         GARIEL
@@ -50,19 +55,19 @@ let Hero = () => {
                 pl={{ base: '30px', sm:'90px', md: '140px', lg: '200px', xl: '300px', '2xl': '420'}} 
                 w={'50%'}>
                     <Heading 
-                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontSize={{md: '30px', lg: '45px', xl: '55px'}} 
                     fontFamily={'Oswald'} 
                     color={'black'}>
                         DESARROLLADOR 
                     </Heading>
                     <Heading 
-                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontSize={{md: '30px', lg: '45px', xl: '55px'}} 
                     fontFamily={'Oswald'} 
                     color={'black'}>
                         WEB 
                     </Heading>
                     <Heading 
-                    fontSize={{md: '30px', lg: '35px', xl: '40px'}} 
+                    fontSize={{md: '30px', lg: '45px', xl: '55px'}} 
                     fontFamily={'Oswald'} 
                     color={'black'}>
                         FULL STACK
