@@ -8,24 +8,47 @@ let Statistics = () => {
     return (
         <Box mb={'100px'} pl={'55px'} pr={'55px'}>
             <Center>
-                <Heading size={'3xl'}>
+                <Heading 
+                fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
+                fontFamily={'Oswald'}
+                color={'black'}>
                     CAMBIANDO MI VISION
                 </Heading>
             </Center>
-            <Stack direction={'row'} spacing={'30px'} pt={'40px'}>
-                <Box width={'50%'} pr={'100px'} alignContent={'center'}>
-                    <Heading fontSize={'30px'}>
-                        Esto es un encabezado de prueba, completamente auxiliar
+
+            <Stack 
+            direction={'row'} 
+            spacing={'30px'} 
+            pt={'40px'}>
+                <Box 
+                width={'50%'} 
+                pr={{base: '0px', md: '50px', xl: '100px', '2xl': '150px'}} 
+                pt={{base: '0px', md: '20px', xl: '40px', '2xl': '70px'}}>
+                    <Heading fontSize={{base: '15px', xl: '30px', '2xl': '35px'}}>
+                        Creando soluciones hechas a medida para todos los proyectos en los que trabajo.
                     </Heading>
-                    <SimpleGrid columns={'2'}  spacingY='80px' pt={'100px'}>
-                        <CardStatistic/>
-                        <CardStatistic/>
-                        <CardStatistic/>
-                        <CardStatistic/>
+                    
+                    <SimpleGrid 
+                    columns={'2'}  
+                    spacingY={{base: '5px', md:'20px', lg: '40px', xl: '60px', '2xl': '80px'}} 
+                    pt={{base: '10px', md: '30px', lg: '70px', xl: '100px', '2xl': '150px'}}>
+                        <CardStatistic
+                        numero={'10+'}
+                        descripcion={'Proyectos Completados'}/>
+                        <CardStatistic
+                        numero={'3+'}
+                        descripcion={'Cursos Completados'}/>
+                        <CardStatistic
+                        numero={'5+'}
+                        descripcion={'Lenguajes de Programacion'}/>
+                        <CardStatistic
+                        numero={'8+'}
+                        descripcion={'Tecnologias utilizadas'}/>
                     </SimpleGrid>
                 </Box>
+
                 <Box w={'50%'}>
-                    <Image src={'./public/setup-grande.jpg'} objectFit={'cover'} borderRadius={'20px'} ></Image>
+                    <Image src={'./public/setup-grande.jpg'} objectFit={'cover'} borderRadius={'5%'} ></Image>
                 </Box>
             </Stack>
         </Box>
