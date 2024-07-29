@@ -6,20 +6,36 @@ let Service = () => {
 
 
     return (
-        <Box mb={'100px'}>
+        <Box 
+        mb={'100px'}
+        pl={'55px'}
+        pr={'55px'}>
             <Center>
-                <Heading size={'3xl'}>
-                    SERVICIOS
+                <Heading 
+                fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
+                fontFamily={'Oswald'}
+                color={'black'}>
+                    PUEDO AYUDARTE CON
                 </Heading>
             </Center>
-            <Stack direction={'row'} justify={'space-between'} pt={'50px'} pl={'55px'} >
-                <CardService/>
-                <CardService/>
-                <CardService/>
-                <CardService/>
+            <Stack direction={'row'} justify={'space-between'} pt={'50px'} >
+                <CardService
+                titulo={'Marca'}
+                descripcion={'Creamos una marca fuerte para productos y empresas. Del modelo de marca al sistema de diseño.'}/>
+                <CardService
+                numero={'02'}
+                titulo={'Diseño de Paginas Web'}
+                descripcion={'El ciclo completo de servicios para crear y lanzar un sitio web desde cero o rediseñar un sitio.'}/>
+                <CardService
+                numero={'03'}
+                titulo={'Aplicaciones de Escritorio'}
+                descripcion={'Creamos una experiencia de usuario elegante para aplicaciones de escritorio que logran objetivos comerciales y hacen felices a los usuarios.'}/>
+                <CardService
+                numero={'04'}
+                titulo={'El Paquete Completo'}
+                descripcion={'Obtenga lo mejor de todos los servicios para su sitio web, capture la identidad de su marca y obtenga funciones completamente funcionales.'}/>
             </Stack>
         </Box>
     )
 }
-
 export default Service

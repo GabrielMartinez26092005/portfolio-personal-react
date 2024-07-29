@@ -18,7 +18,7 @@ let Main = () => {
             {/* <Header/> */}
             <Hero/>
             <Projects/>
-            {/* <Services/> */}
+            <Services/>
             <Statistics/>   
             <Skills/>
             <Workstation/>

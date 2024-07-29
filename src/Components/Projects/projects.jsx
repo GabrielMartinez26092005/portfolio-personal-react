@@ -12,6 +12,8 @@ let Projects = () => {
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
+                fontFamily={'Oswald'}
+                color={'black'}
                 pb={{base: '5px', md: '15px', '2xl': '25px'}}>
                     PROYECTOS RECIENTES
                 </Heading>

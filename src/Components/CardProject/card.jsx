@@ -12,18 +12,21 @@ let CardProject = ({ titulo = 'titulo', descripcion = 'descripcion', urlImage, u
             objectFit={'cover'} 
             w={'100%'} 
             borderRadius={'20px'}></Image>
+
             <Flex 
             justify={'space-between'} 
             align={'center'} 
             pt={'10px'}>
                 <Box>
-                <Heading fontSize={{base: '20px', xl: '30px', '2xl': '35px'}}>
-                    { titulo }
-                </Heading>
-                <Text fontSize={{base: '10px', xl: '15px', '2xl': '18px'}}>
-                    { descripcion }
-                </Text>
+                    <Heading fontSize={{base: '20px', xl: '30px', '2xl': '35px'}}>
+                        { titulo }
+                    </Heading>
+
+                    <Text fontSize={{base: '10px', xl: '15px', '2xl': '18px'}}>
+                        { descripcion }
+                    </Text>
                 </Box>
+
                 <Link href= { urlLink } isExternal>
                     <Button 
                     variant={'white_button'} 
@@ -31,15 +34,9 @@ let CardProject = ({ titulo = 'titulo', descripcion = 'descripcion', urlImage, u
                     borderColor={'black'}
                     fontSize={{base: '10px', xl: '15px', '2xl': '18px'}}
                     p={{base: '5px', md: '10px', '2xl': '22px'}}>
-                        Click aqui
-                        <Icon 
-                        as={FiArrowUpRight} 
-                        color={'black'}  
-                        ml={'5px'} 
-                        fontSize={'17px'}/>
+                        Click aqui <Icon as={FiArrowUpRight} color={'black'} ml={'5px'} fontSize={'17px'}/>
                     </Button>
                 </Link>
-
             </Flex>
         </Box>
     )
