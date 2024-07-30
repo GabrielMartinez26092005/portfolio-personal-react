@@ -11,7 +11,8 @@ let Footer = () => {
     return (
         <Box 
         pt={['5px', '15px', '20px', '25px']} 
-        pb={['5px', '15px', '20px', '25px']}>
+        pb={['5px', '15px', '20px', '25px']}
+        bgGradient={"linear-gradient(to-b, rgba(255, 253, 244, 1), rgba(255, 228, 190, 1))"}>
             <Stack 
             spacing={['30px', '40px', '50px', '80px']} 
             justify={'center'} 

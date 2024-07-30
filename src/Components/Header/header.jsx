@@ -7,7 +7,7 @@ let Header = () => {
 
 
     return (
-        <Box as='section'>
+        <Box as='header'>
             <Show above='sm'>
                 <BigHeader/>
             </Show>

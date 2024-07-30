@@ -9,7 +9,8 @@ let Statistics = () => {
         <Box 
         mb={{base: '20px', md: '50px', '2xl': '100px'}}
         px={['10px', '20px', '40px', '55px']}
-        name='toAcercaDe'>
+        name='toAcercaDe'
+        bgGradient={"linear-gradient(to bottom, rgba(255, 253, 244, 1), rgba(255, 228, 190, 1), rgba(255, 253, 244, 1))"}>
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}
