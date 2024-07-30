@@ -21,7 +21,7 @@ let Workstation = () => {
             <Grid 
             templateRows='repeat(2, 1fr)' 
             templateColumns='repeat(4, 1fr)' 
-            gap={4}>
+            gap={{base: '1', sm: '2', md: '4'}}>
                 <GridItem rowStart={1} rowEnd={2} colStart={1}>
                     <Image src='workstation1.jpg' objectFit={'cover'} h={'100%'} w={'100%'} borderRadius={'5%'}></Image>
                 </GridItem>
