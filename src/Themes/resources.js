@@ -1,42 +1,41 @@
 import { extendTheme } from '@chakra-ui/react';
 
-const theme = extendTheme({
-  colors: {
-    // color1: 'rgb(16,24,32)',  // "Negro"
-    // color2: 'rgb(249,249,249)', // "Blanco"
-    // color3: 'rgb(254,231,21)', // "Amarillo"
-  },
+const colors = {
+  black: 'rgb(16,24,32)',  
+  white: 'rgb(249,249,249)', 
+  yellow: 'rgb(254,231,21)', 
+};
 
-  
+const theme = extendTheme({
+  colors, 
 
   components: {
     Button: {
       variants: {
         'black_button': {
-          borderRadius:'30',
-          bg:'black', 
-          color:'white',
-          fontSize:'14',
+          borderRadius: '30px', 
+          bg: 'black', 
+          color: 'white',
+          fontSize: '14px', 
           border: '1px solid',
-          p:'6px',
+          p: '6px',
           _hover: {
             bg: 'white',
             color: 'black',
-            border: '1px solid',
             borderColor: 'black',
-            transition:'.8s'
+            transition: '.8s',
           }
         },
         'white_button': {
-          borderRadius:'30',
-          bg:'white', 
-          color:'black',
-          fontSize:'14',
-          p:'6px',
+          borderRadius: '30px', 
+          bg: 'white', 
+          color: 'black',
+          fontSize: '14px', 
+          p: '6px',
           _hover: {
             bg: 'black',
             color: 'white',
-            transition:'.8s'
+            transition: '.8s',
           }  
         },
       }
@@ -45,10 +44,3 @@ const theme = extendTheme({
 });
 
 export default theme;
-
-// Definir colores en formato rgb()
-export const colors = {
-  // color1: 'rgb(16,24,32)',  // "Negro"
-  // color2: 'rgb(249,249,249)', // "Blanco"
-  // color3: 'rgb(254,231,21)', // "Amarillo"
-};
