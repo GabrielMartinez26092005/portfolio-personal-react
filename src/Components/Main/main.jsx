@@ -9,7 +9,6 @@ import Skills from "../Skills/skills";
 import Workstation from "../Workstation/workstation";
 import FormLogin from "../Form/form";
 import Footer from "../Footer/footer";
-
 let Main = () => {
 
 

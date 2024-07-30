@@ -8,7 +8,8 @@ let Service = () => {
     return (
         <Box 
         mb={{base: '20px', md: '50px', '2xl': '100px'}}
-        px={['10px', '20px', '40px', '55px']}>
+        px={['10px', '20px', '40px', '55px']}
+        name='toServicios'>
             <Center>
                 <Heading 
                 fontSize={{base: '25px', md: '30px', lg: '45px', xl: '55px'}}

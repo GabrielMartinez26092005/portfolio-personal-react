@@ -6,6 +6,7 @@ let Projects = () => {
 
     return (
         <Box 
+        name='toTrabajos'
         mb={{base: '20px', md: '50px', '2xl': '100px'}}
         px={['10px', '20px', '40px', '55px']}>
             <Center>

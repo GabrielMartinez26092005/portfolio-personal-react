@@ -7,7 +7,8 @@ let Hero = () => {
 
 
     return (
-        <Box 
+        <Box
+        name='toInicio' 
         bgGradient='linear(to-r, gray.300, yellow.400, pink.200)' 
         px={['10px', '20px', '40px', '55px']}
         pb={'75px'} 
