@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Center, Stack, Image, SimpleGrid } from "@chakra-ui/react"
-import CardSkill from "../CardSkill/card";
+import CardSkill from "./card";
 
 let Skills = () => {
 

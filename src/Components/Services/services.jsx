@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Center, Stack, } from "@chakra-ui/react"
-import CardService from "../CardService/card";
+import CardService from "./card";
 
 let Service = () => {
 

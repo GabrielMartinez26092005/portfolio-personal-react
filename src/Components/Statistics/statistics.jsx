@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Center, Stack, Image, SimpleGrid } from "@chakra-ui/react"
-import CardStatistic from "../CardStatistic/card";
+import CardStatistic from "./card";
 
 let Statistics = () => {
 

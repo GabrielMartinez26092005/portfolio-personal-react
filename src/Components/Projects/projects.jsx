@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Center, Stack, } from "@chakra-ui/react"
-import CardProject from "../CardProject/card";
+import CardProject from "./card";
 
 let Projects = () => {
 
