@@ -26,13 +26,13 @@ let Projects = () => {
                 <CardProject 
                 titulo={'Login Page'}
                 descripcion={'Diseño de Pagina Web'}
-                urlImage={'public/login-page-project.png'}
+                urlImage={'login-page-project.png'}
                 urlLink={'https://github.com/GabrielMartinez26092005/mage-based-web-project-login-page'}>
                 </CardProject>
                 <CardProject 
                 titulo={'Services Page'}
                 descripcion={'Diseño de Pagina Web'}
-                urlImage={'public/services-project.png'}
+                urlImage={'services-project.png'}
                 urlLink={'https://github.com/GabrielMartinez26092005/mage-based-web-project-services'}>
                 </CardProject>
             </Stack>

@@ -22,7 +22,7 @@ let Skills = () => {
             pb={['10px', '15px', '25px', '35px']} 
             borderBottom={'1px solid rgba(0, 0, 0, .2)'}>
                 <CardSkill
-                url={'/public/skills-1.jpg'}
+                url={'skills-1.jpg'}
                 fecha='24-2024'
                 titulo='Desarrolador Web'
                 habilidades={['Html', 'Css', 'JavaScript' ]}/>
@@ -30,7 +30,7 @@ let Skills = () => {
             </Box>
             <Box pt={['10px', '15px', '25px', '35px']} >
                 <CardSkill 
-                url={'/public/skills-2.jpg'}
+                url={'skills-2.jpg'}
                 fecha='24-2024'
                 titulo='Desarrollador de Apliaciones de Escritorio'
                 habilidades={['C#', '.Net Framework', 'Windows Forms App' ]}/>

@@ -53,7 +53,7 @@ let Statistics = () => {
                 <Show
                 above='sm'> 
                     <Box w={'50%'}>
-                        <Image src={'./public/setup-grande.jpg'} objectFit={'cover'} borderRadius={'5%'} ></Image>
+                        <Image src={'setup-grande.jpg'} objectFit={'cover'} borderRadius={'5%'} ></Image>
                     </Box>
                 </Show>
             </Stack>
