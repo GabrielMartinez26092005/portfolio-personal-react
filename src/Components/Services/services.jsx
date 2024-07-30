@@ -19,7 +19,9 @@ let Service = () => {
                     PUEDO AYUDARTE CON
                 </Heading>
             </Center>
-            <Stack direction={'row'} justify={'space-between'}>
+            <Stack 
+            direction={{base: 'column', sm:'row'}} 
+            justify={'space-between'}>
                 <CardService
                 titulo={'Marca'}
                 descripcion={'Creamos una marca fuerte para productos y empresas. Del modelo de marca al sistema de diseño.'}/>

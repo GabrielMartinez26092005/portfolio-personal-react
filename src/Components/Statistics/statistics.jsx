@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Center, Stack, Image, SimpleGrid } from "@chakra-ui/react"
+import { Box, Heading, Center, Stack, Image, SimpleGrid, Show, } from "@chakra-ui/react"
 import CardStatistic from "./card";
 
 let Statistics = () => {
@@ -25,7 +25,7 @@ let Statistics = () => {
             direction={'row'} 
             spacing={'30px'}>
                 <Box 
-                width={'50%'} 
+                width={{base: '100%', sm: '50%'}} 
                 pr={{base: '0px', md: '50px', xl: '100px', '2xl': '150px'}} 
                 pt={{base: '0px', md: '20px', xl: '40px', '2xl': '70px'}}>
                     <Heading fontSize={{base: '15px', xl: '30px', '2xl': '35px'}}>
@@ -50,10 +50,12 @@ let Statistics = () => {
                         descripcion={'Tecnologias utilizadas'}/>
                     </SimpleGrid>
                 </Box>
-
-                <Box w={'50%'}>
-                    <Image src={'./public/setup-grande.jpg'} objectFit={'cover'} borderRadius={'5%'} ></Image>
-                </Box>
+                <Show
+                above='sm'> 
+                    <Box w={'50%'}>
+                        <Image src={'./public/setup-grande.jpg'} objectFit={'cover'} borderRadius={'5%'} ></Image>
+                    </Box>
+                </Show>
             </Stack>
         </Box>
     )

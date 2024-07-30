@@ -19,7 +19,10 @@ let Projects = () => {
                     PROYECTOS RECIENTES
                 </Heading>
             </Center>
-            <Stack direction={'row'} justify={'center'} spacing={'30px'}>
+            <Stack 
+            direction={{base: 'column', sm:'row'}} 
+            justify={'center'} 
+            spacing={{base: '15px', sm:'10px', md:'30px'}}>
                 <CardProject 
                 titulo={'Login Page'}
                 descripcion={'Diseño de Pagina Web'}
