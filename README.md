@@ -9,6 +9,7 @@
 
 * DESCRIPCION: Este es el Trabajo Practico Final N°2. Es un proyecto replicado, tratando de ser 100% fiel al diseño original.
 
+* LINKEDIN: https://www.linkedin.com/in/gabriel-martinez-a49540319/
 
 * DIPLOMATURA: Diplomatura en Programacion Web Full Stack 2024
 
